@@ -1,0 +1,77 @@
+.aboutApp {
+  text-align: left;
+  margin: 20%;
+  margin-bottom: 100px ;
+  margin-top: -200px ;
+}
+
+@media (max-width: 768px) {
+  .aboutApp {
+    margin: 0; /* Remove margin for mobile view */
+    /*text-align: center;*/
+  }
+
+  .firstText, .thirdText {
+    transform: translateX(100px); /* Move the elements 100px to the right */
+  }
+
+  .secondText {
+    transform: translateX(-100px); /* Move the element 100px to the left */
+  }
+}
+
+.aboutApp-header {
+}
+
+.titleAbout {
+  color: #000000;
+  font-family: "Gilmer Medium-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+  position: relative;
+}
+
+.aboutAbout {
+  color: #00acde;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin-top: -1px;
+  text-align: center;
+  width: fit-content;
+}
+
+.parAbout {
+  color: #4c4c4c;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  width: 80%;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Adjust the height as needed */
+}
+
+.firstText {
+  padding-bottom: 40px;
+  translate: -100px;
+}
+
+.thirdText {
+  padding-bottom: 40px;
+  translate: -100px;
+}
+
+.secondText {
+  padding-bottom: 40px;
+  translate: 100px;
+}

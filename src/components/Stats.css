@@ -1,0 +1,90 @@
+.body {
+  text-align: center;
+  /* Use flexbox to arrange text and image horizontally */
+   align-items: center;/* Center items vertically within the container*/
+   justify-content: center; 
+}
+.school_section{
+  text-align: center;
+  justify-content: center; 
+   background-color: white;
+   height: 360px;
+   width: 150;
+   padding-bottom: 40px;
+
+}
+.matches_made{
+  text-align: center;
+  justify-content: center; 
+  padding-bottom: 10px;
+  font-weight: 15;
+  font-size: 45px;
+  font-family: 'League Spartan', sans-serif;
+}
+.num {
+  float: unset; 
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 15;
+  font-size: 40px;
+  padding-top: 70px
+  
+
+}
+.berkeley {
+  padding-bottom: 60px;
+  padding-right: 120px;
+
+}
+.davis{
+  padding-bottom: 60px;
+  padding-right: 120px
+}
+.stanford{
+    padding-bottom: 68px;
+    padding-right: 120px;
+
+}
+
+.school-style{
+ margin-left: 100px;
+
+
+}
+.body{
+
+}
+
+
+@media (max-width: 768px) {
+  .matches_made{
+  }
+  .berkeley {
+   
+    padding-bottom:20px;
+    
+  }
+  .davis{
+  
+    padding-bottom:20px;
+
+  }
+  .stanford{
+      
+    padding-bottom: 20px;
+  
+
+  }
+  
+
+}
+
+
+
+
+
+
+
+  
+  
+  
+  
